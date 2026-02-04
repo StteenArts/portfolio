@@ -1,0 +1,103 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.layout {
+  display: flex;
+  height: 100vh;
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 280px;
+  background: #040b14;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.profile {
+  text-align: center;
+}
+
+.profile img {
+  width: 120px;
+  border-radius: 50%;
+  border: 6px solid #2c2f3f;
+}
+
+.profile h3 {
+  margin: 15px 0;
+}
+
+.socials a {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  width: 34px;
+  height: 34px;
+  background: #212431;
+  color: white;
+  border-radius: 50%;
+  margin: 5px;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.menu {
+  margin-top: 40px;
+}
+
+.menu a {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #a8a9b4;
+  padding: 12px;
+  text-decoration: none;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.menu a:hover,
+.menu a.active {
+  color: #fff;
+  background: #149ddd;
+}
+
+/* HERO */
+.hero {
+  flex: 1;
+  background: url("https://images.unsplash.com/photo-1506794778202-cad84cf45f1d") center/cover no-repeat;
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding-left: 60px;
+}
+
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0,0,0,0.4);
+}
+
+.hero-text {
+  position: relative;
+  color: white;
+}
+
+.hero-text h1 {
+  font-size: 64px;
+}
+
+.hero-text p {
+  font-size: 26px;
+}
+
+.hero-text span {
+  border-bottom: 3px solid #149ddd;
+}
