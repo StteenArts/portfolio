@@ -73,7 +73,7 @@
 /* HERO */
 .hero {
     flex: 1;
-    background: url("https://images.unsplash.com/photo-1506794778202-cad84cf45f1d") center/cover no-repeat;
+    background: url("../../images/stteen-banner-full.png") center/cover no-repeat;
     position: relative;
     display: flex;
     align-items: center;
